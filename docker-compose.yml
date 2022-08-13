@@ -7,7 +7,7 @@ services:
     stdin_open: true
     tty: true
     ports:
-      - 7784:7777
+      - 7777:7777
     volumes:
       - type: bind
         source: ./Worlds
@@ -18,7 +18,7 @@ services:
     environment:
       - world=/root/.local/share/Terraria/ModLoader/Worlds/ModdedWorld1.wld
       - autocreate=2
-      - worldname=ModdedWorld1
-      - difficulty=1
+      - worldname=FreeTaiwan
+      - difficulty=2
       - password=passworld
-      - motd="Welcome to hexlo's server! :)"
+      - motd="hi miya"
